@@ -1,0 +1,82 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      maxFileSize: 10MB
+      maxRequestSize: 100MB
+eureka:
+  client:
+    registry-fetch-interval-seconds: 20
+    serviceUrl:
+      defaultZone: http://10.10.18.95:1111/eureka/,http://10.10.18.96:1111/eureka/
+  instance:
+    lease-expiration-duration-in-seconds: 30
+    lease-renewal-interval-in-seconds: 10
+    prefer-ip-address: true
+    status-page-url-path: /swagger-ui.html
+management.endpoints.web.exposure.include:
+  - health     # 健康检查
+  - info       # 项目信息
+  ##- env        # 环境变量
+  - metrics    # 项目度量
+  - refresh    # 刷新配置
+  - loggers    # 日志级别
+  - metrics    # 度量
+feign:
+  hystrix:
+    enabled: true
+
+ribbon:
+  MaxAutoRetries: 0 # 对当前实例的重试次数
+  MaxAutoRetriesNextServer: 1 # 切换实例的重试次数
+  OkToRetryOnAllOperations: false #重试操作
+  ReadTimeout: 30000 # 请求处理的超时时间
+  ConnectTimeout: 5000 # 请求连接超时时间
+  okhttp:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        sleepWindowInMilliseconds: 100000
+        forceClosed: true
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 90000
+  threadpool:
+    default:
+      coreSize: 100
+
+starSwagger:
+  enabled: true
+
+starWeb:
+  cors:
+    enabled: false
+star-thymeleaf-tag:
+  usePageAuth: false
+starEhcache:
+  enable: true
+  caches:
+    - name: module-user-account
+      eternal: true
+      maxEntriesLocalHeap: 10000
+    - name: module-user-info
+      maxEntriesLocalHeap: 10000
+    - name: module-area
+      eternal: true
+      maxEntriesLocalHeap: 10000
+    - name: module-area-list
+      eternal: true
+      maxEntriesLocalHeap: 10000
+    - name: module-person-coach
+      eternal: true
+      maxEntriesLocalHeap: 10000
+    - name: module-test-coach
+      eternal: true
+      maxEntriesLocalHeap: 10000
