@@ -4,8 +4,8 @@ star-swagger:
 starMysql:
   writeSupply:
     username: root
-    password: test123
-    url: jdbc:mysql://47.94.0.136:3306/framework?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true&useSSL=false
+    password: uAiqwVwjJ8-i
+    url: jdbc:mysql://47.105.38.227:3306/blyx?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true&useSSL=false
     pool:
       maxActive: 30
     mybatisConfig: mapper/mybatis-config.xml
@@ -15,8 +15,8 @@ starMysql:
  
   readSupply:
     username: root
-    password: test123
-    url: jdbc:mysql://47.94.0.136:3306/framework?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true&useSSL=false
+    password: uAiqwVwjJ8-i
+    url: jdbc:mysql://47.105.38.227:3306/blyx?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true&useSSL=false
     pool:
       maxActive: 50
     mybatisConfig: mapper/mybatis-config.xml
