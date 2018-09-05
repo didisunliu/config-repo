@@ -75,9 +75,15 @@ starEhcache:
     - name: module-area-list
       eternal: true
       maxEntriesLocalHeap: 10000
-    - name: module-person-coach
+    - name: module-product-distributionRegion
       eternal: true
       maxEntriesLocalHeap: 10000
-    - name: module-test-coach
+    - name: module-product-product
+      eternal: true
+      maxEntriesLocalHeap: 10000
+    - name: module-product-productInventory
+      eternal: true
+      maxEntriesLocalHeap: 10000
+    - name: module-product-productPicture
       eternal: true
       maxEntriesLocalHeap: 10000
