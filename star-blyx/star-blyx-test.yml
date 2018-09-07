@@ -30,4 +30,4 @@ logging:
 starSecurity:
   ignore:
     - /index
-    - /api/ticket/serverConfig
+    - /api/weixin/**
