@@ -1,0 +1,10 @@
+star-swagger:
+  basePackage: com.star.truffle.module
+  enable: true 
+
+logging:
+  file: ${spring.application.name}
+
+starSecurity:
+  ignore:
+    - /index
