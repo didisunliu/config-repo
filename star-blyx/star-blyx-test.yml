@@ -30,4 +30,5 @@ logging:
 starSecurity:
   ignore:
     - /index
-    - /api/weixin/**
+    - /api/weixin/ticket/serverConfig
+    - /api/weixin/ticket/getWeixinUserInfo
