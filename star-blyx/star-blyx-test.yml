@@ -31,4 +31,3 @@ starSecurity:
   ignore:
     - /index
     - /weixin/**
-    - /weixin/**
