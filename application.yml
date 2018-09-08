@@ -59,6 +59,8 @@ starSwagger:
 starWeb:
   cors:
     enabled: false
+bui:
+  systemTitle: 青稞运营后台管理系统
 star-thymeleaf-tag:
   usePageAuth: false
 starEhcache:
