@@ -88,4 +88,13 @@ starEhcache:
       maxEntriesLocalHeap: 10000
     - name: module-product-productPicture
       eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-product-productSubscription
+      eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-member-distributor
+      eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-member-member
+      eternal: true
       maxEntriesLocalHeap: 10000
