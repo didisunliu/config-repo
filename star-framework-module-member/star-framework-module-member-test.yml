@@ -29,7 +29,7 @@ logging:
 
 starSecurity:
   ignore:
-    - /index
+    - /index 
 spring:
   redis:
     cluster.nodes:
