@@ -97,4 +97,7 @@ starEhcache:
       maxEntriesLocalHeap: 10000    
     - name: module-member-member
       eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: smsidentity_info
+      eternal: true
       maxEntriesLocalHeap: 10000
