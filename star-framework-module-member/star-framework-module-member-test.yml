@@ -60,7 +60,7 @@ template:
   sms:
     1:
       templateCode: FDAF32F23EWQD1
-      templateParam: {"code": "%s"}
+      templateParam: "{\"code\": \"%s\"}"
     2:
       templateCode: FDAF32F23EWQD2
-      templateParam: {"code": "%s"}
+      templateParam: "{\"code\": \"%s\"}"
