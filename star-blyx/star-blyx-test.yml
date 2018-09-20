@@ -31,3 +31,22 @@ starSecurity:
   ignore:
     - /index
     - /weixin/**
+
+###{date:pattern} 日期，当前时间，pattern为日期显示格式
+template:
+  excel:
+    student:
+      fileName: 学生列表_{date:yyyy年MM月dd日}
+      sheetName: 学生列表
+      fields: 用户id,学生姓名,学生账号,手机号码1
+    teacher:
+      fileName: 教师列表_{date:yyyy年MM月dd日HH点}
+      sheetName: 教师列表
+      fields: 用户id,教师姓名,教师账号,手机号码
+  sms:
+    1:
+      templateCode: FDAF32F23EWQD1
+      templateParam: {"code": "%s"}
+    2:
+      templateCode: FDAF32F23EWQD2
+      templateParam: {"code": "%s"}
