@@ -100,4 +100,19 @@ starEhcache:
       maxEntriesLocalHeap: 10000    
     - name: smsidentity_info
       eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-order-deliveryAddress
+      eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-order-orderAfterSale
+      eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-order-order
+      eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-order-orderDetail
+      eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-order-shoppingCart
+      eternal: true
       maxEntriesLocalHeap: 10000
