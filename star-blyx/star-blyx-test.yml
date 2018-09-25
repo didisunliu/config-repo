@@ -31,6 +31,7 @@ starSecurity:
   ignore:
     - /index
     - /weixin/**
+    - /api/**
 
 order:
   despatchMoney: 950
