@@ -29,7 +29,11 @@ logging:
 
 starSecurity:
   ignore:
-    - /index
+    - /common/**
+    - /kindeditor/**
+    - /upload/**
+    - /choose/**
+    - /download/**
     - /weixin/**
     - /api/**
 
