@@ -59,7 +59,7 @@ starSwagger:
 starWeb:
   cors:
     enabled: true
-  photoPath: /opt/upload/
+  photoPath: e:/opt/upload/
 bui:
   systemTitle: 青稞运营后台管理系统
 star-thymeleaf-tag:
