@@ -17,7 +17,7 @@ eureka:
     #home-page-url-path: ${server.servlet.context-path:}/
     instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true
-    hostname: 47.105.38.227
+    #hostname: 47.105.38.227
     lease-expiration-duration-in-seconds: 30
     lease-renewal-interval-in-seconds: 10
 management.endpoints.web.exposure.include:
