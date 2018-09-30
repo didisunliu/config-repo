@@ -13,7 +13,9 @@ eureka:
     serviceUrl:
       defaultZone: http://47.105.38.227:1111/eureka/
   instance:
-    instance-id: asdfadsfsdf
+    #status-page-url-path: ${server.servlet.context-path:}/swagger-ui.html
+    #home-page-url-path: ${server.servlet.context-path:}/
+    instance-id: ${spring.application.name}:${server.port}
     prefer-ip-address: true
     hostname: 47.105.38.227
     lease-expiration-duration-in-seconds: 30
