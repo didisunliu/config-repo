@@ -125,4 +125,7 @@ starEhcache:
       maxEntriesLocalHeap: 10000    
     - name: module-product-category
       eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-product-productTag
+      eternal: true
       maxEntriesLocalHeap: 10000
