@@ -38,7 +38,8 @@ starSecurity:
     - /api/**
 
 order:
-  despatchMoney: 950
+  despatchMoney: 800
+  despatchLimit: 3000
 
 ###{date:pattern} 日期，当前时间，pattern为日期显示格式
 template:
