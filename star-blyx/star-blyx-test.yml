@@ -56,7 +56,7 @@ template:
   sms:
     1:
       templateCode: SMS_150980198
-      templateParam: "{\"code\": \"%s\"}"
+      templateParam: '{"code": "%s"}'
     2:
       templateCode: SMS_145895106
-      templateParam: "{\"code\": \"%s\"}"
+      templateParam: '{"code": "%s"}'
