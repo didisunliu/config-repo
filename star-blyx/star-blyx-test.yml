@@ -52,10 +52,11 @@ template:
       fileName: 教师列表_{date:yyyy年MM月dd日HH点}
       sheetName: 教师列表
       fields: 用户id,教师姓名,教师账号,手机号码
+  signName: 五杂优选	  
   sms:
     1:
-      templateCode: FDAF32F23EWQD1
+      templateCode: SMS_150980198
       templateParam: {"code": "%s"}
     2:
-      templateCode: FDAF32F23EWQD2
+      templateCode: SMS_145895106
       templateParam: {"code": "%s"}
