@@ -62,10 +62,10 @@ template:
           datas: 订单日期, "[#orderDate]"
         - 
           rowNum: 3
-          datas: 门店电话, #shopMobile
+          datas: 门店电话, "[#shopMobile]"
         - 
           rowNum: 4
-          datas: 门店地址, #shopAddress
+          datas: "['门店地址']", "[#shopAddress]"
       fieldsRowNum: 5
       fields: 提货号,代客下单,收货人/昵称,联系电话,收货地址,已售数量,商品价格,确认提货
   signName: 五杂优选	  
