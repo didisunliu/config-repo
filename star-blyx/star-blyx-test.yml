@@ -53,7 +53,7 @@ template:
       sheetName: 教师列表
       fields: 用户id,教师姓名,教师账号,手机号码
     transportOrder:
-      fileName: "['（'+#shopCode+'）'+#shopName+'门店对接订单_'+#orderDate]"
+      fileName: "'（'+#shopCode+'）'+#shopName+'门店对接订单_'+#orderDate"
       sheetName: 对接订单
       tableCaption: "'（'+#shopCode+'）'+#shopName+'门店对接订单（'+#useObj+'）'"
       rowDatas: 
