@@ -55,7 +55,7 @@ template:
     transportOrder:
       fileName: "'（'+#shopCode+'）'+#shopName+'门店对接订单_'+#orderDate"
       sheetName: 对接订单
-      tableCaption:"'（'+#shopCode+'）'+#shopName+'门店对接订单'"
+      tableCaption: "'（'+#shopCode+'）'+#shopName+'门店对接订单'"
       rowDatas: 
         - 
           rowNum: 2
