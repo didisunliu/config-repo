@@ -58,7 +58,7 @@ template:
       fileName: 订单明细
       sheetName: 对接订单
       fieldsRowNum: 1
-      fields: 订单编号,订单状态,提货号,代客下单,收货类型,收货人,联系电话,收货地址,购买数量,购买单价,订单总金额,商品名称,分销商,店铺名称,下单日期
+      fields: 订单编号,订单状态,提货号,代客下单,收货类型,收货人,联系电话,收货地址,购买数量,购买单价,订单总金额,商品名称,店铺名称,下单日期
     transportOrder:
       fileName: "'（'+#shopCode+'）'+#shopName+'门店对接订单_'+#orderDate"
       sheetName: 对接订单
