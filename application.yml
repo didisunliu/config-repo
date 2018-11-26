@@ -128,4 +128,7 @@ starEhcache:
       maxEntriesLocalHeap: 10000    
     - name: module-product-productTag
       eternal: true
+      maxEntriesLocalHeap: 10000    
+    - name: module-member-distributor-list
+      eternal: true
       maxEntriesLocalHeap: 10000
