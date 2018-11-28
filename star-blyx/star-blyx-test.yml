@@ -59,6 +59,11 @@ template:
       sheetName: 对接订单
       fieldsRowNum: 1
       fields: 订单编号,订单状态,提货号,代客下单,收货类型,收货人,联系电话,收货地址,购买数量,购买单价,小计(数量*单价),商品名称,店铺名称,下单日期,会员姓名,会员手机,订单备注
+    product:
+      fileName: 供应列表
+      sheetName: 供应列表
+      fieldsRowNum: 1
+      fields: 商品ID,状态,分类,标题,预售时间,下架时间,商品价格,提成,库存数量,已售数量,累计金额,购买人数,供货商,联系电话,未税价,含税价,售价,规格
     transportOrder:
       fileName: "'（'+#shopCode+'）'+#shopName+'门店对接订单_'+#orderDate"
       sheetName: 对接订单
@@ -78,7 +83,7 @@ template:
       colTotal: 
         caption: 合计
         cols: 6,7
-  signName: 五杂优选	  
+  signName: 五杂优选  
   sms:
     1:
       templateCode: SMS_150980198
