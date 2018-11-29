@@ -82,7 +82,7 @@ template:
       fields: 商品名称,商品规格,订单号,提货号,订单备注,收货人,联系电话,收货地址,数量,单价,小计,确认提货
       colTotal: 
         caption: 合计
-        cols: 6,7
+        cols: 9,10,11
   signName: 五杂优选  
   sms:
     1:
