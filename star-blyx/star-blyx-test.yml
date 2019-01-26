@@ -63,7 +63,7 @@ template:
       fileName: 供应列表
       sheetName: 供应列表
       fieldsRowNum: 1
-      fields: 商品ID,状态,分类,标题,规格,预售时间,下架时间,供货商,供货商联系人,供货商电话,原价,未税价,含税价,售价,分销商提成,上级分销商提成,库存总量,已售数量,累计金额,购买人数
+      fields: 商品ID,状态,分类,标题,规格,预售时间,下架时间,供货商,供货商联系人,供货商电话,原价,未税价,含税价,售价,分销商提成,上级分销商提成,库存总量,已售数量,实时库存,累计金额,购买人数
     transportOrder:
       fileName: "'（'+#shopCode+'）'+#shopName+'门店对接订单_'+#orderDate"
       sheetName: 对接订单
