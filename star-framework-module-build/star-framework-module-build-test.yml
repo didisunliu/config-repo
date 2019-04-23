@@ -1,0 +1,32 @@
+star-swagger:
+  basePackage: com.star.truffle.module
+  enable: true 
+starMysql:
+  writeSupply:
+    username: root
+    password: uAiqwVwjJ8-i
+    url: jdbc:mysql://47.105.38.227:3306/blyx?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true&useSSL=false
+    pool:
+      maxActive: 30
+    mybatisConfig: mapper/mybatis-config.xml
+    mapperLocation: classpath*:/mapper/**/write/*.xml
+    mapperScanner: com/star/truffle/module/**/dao/write
+    aliasPackage: com.star.truffle.module.**.domain
+ 
+  readSupply:
+    username: root
+    password: uAiqwVwjJ8-i
+    url: jdbc:mysql://47.105.38.227:3306/blyx?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true&useSSL=false
+    pool:
+      maxActive: 50
+    mybatisConfig: mapper/mybatis-config.xml
+    mapperLocation: classpath*:/mapper/**/read/*.xml
+    mapperScanner: com/star/truffle/module/**/dao/read
+    aliasPackage: com.star.truffle.module.**.domain
+
+logging:
+  file: ${spring.application.name}
+
+starSecurity:
+  ignore:
+    - /index
