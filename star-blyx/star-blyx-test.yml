@@ -41,7 +41,7 @@ order:
   despatchMoney: 800
   despatchLimit: 6800
   ##提现门槛
-  kickbackMoney: 10000
+  kickbackMoney: 5000
 
 ###{date:pattern} 日期，当前时间，pattern为日期显示格式
 template:
