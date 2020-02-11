@@ -39,7 +39,7 @@ starSecurity:
 
 order:
   despatchMoney: 800
-  despatchLimit: 6800
+  despatchLimit: 100
   ##提现门槛
   kickbackMoney: 5000
 
